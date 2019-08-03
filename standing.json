@@ -1,0 +1,729 @@
+{
+  "api": {
+    "results": 1,
+    "standings": [
+      [
+        {
+          "rank": 1,
+          "team_id": 79,
+          "teamName": "Lille",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/79.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": "Promotion - Champions League (Group Stage)",
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 2,
+          "team_id": 112,
+          "teamName": "Metz",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/112.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": "Promotion - Champions League (Group Stage)",
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 3,
+          "team_id": 91,
+          "teamName": "Monaco",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/91.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": "Promotion - Champions League (Qualification)",
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 4,
+          "team_id": 83,
+          "teamName": "Nantes",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/83.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": "Promotion - Europa League (Group Stage)",
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 5,
+          "team_id": 84,
+          "teamName": "Nice",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/84.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 6,
+          "team_id": 85,
+          "teamName": "Paris Saint Germain",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/85.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 7,
+          "team_id": 1063,
+          "teamName": "Saint Etienne",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/1063.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 8,
+          "team_id": 95,
+          "teamName": "Strasbourg",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/95.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 9,
+          "team_id": 87,
+          "teamName": "Amiens",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/87.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 10,
+          "team_id": 77,
+          "teamName": "Angers",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/77.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 11,
+          "team_id": 106,
+          "teamName": "Stade Brestois 29",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/106.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 12,
+          "team_id": 89,
+          "teamName": "Dijon",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/89.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 13,
+          "team_id": 82,
+          "teamName": "Montpellier",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/82.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 14,
+          "team_id": 92,
+          "teamName": "Nimes",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/92.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 15,
+          "team_id": 93,
+          "teamName": "Reims",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/93.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 16,
+          "team_id": 81,
+          "teamName": "Marseille",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/81.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 17,
+          "team_id": 96,
+          "teamName": "Toulouse",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/96.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": null,
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 18,
+          "team_id": 78,
+          "teamName": "Bordeaux",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/78.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": "Ligue 1 (Relegation)",
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 19,
+          "team_id": 94,
+          "teamName": "Rennes",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/94.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": "Relegation - Ligue 2",
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        },
+        {
+          "rank": 20,
+          "team_id": 80,
+          "teamName": "Lyon",
+          "logo": "https:\/\/www.api-football.com\/public\/teams\/80.png",
+          "group": "Ligue 1",
+          "forme": null,
+          "description": "Relegation - Ligue 2",
+          "all": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "home": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "away": {
+            "matchsPlayed": 0,
+            "win": 0,
+            "draw": 0,
+            "lose": 0,
+            "goalsFor": 0,
+            "goalsAgainst": 0
+          },
+          "goalsDiff": 0,
+          "points": 0,
+          "lastUpdate": "2019-08-01"
+        }
+      ]
+    ]
+  }
+}
