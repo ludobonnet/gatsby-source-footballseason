@@ -13,6 +13,7 @@ exports.sourceNodes = async ({
   const {
     createNode
   } = actions;
+  const env = process.env.NODE_ENV || 'development';
 
   const processNode = ({
     type,
@@ -40,13 +41,21 @@ exports.sourceNodes = async ({
 
   try {
     const aNodeCreated = {};
-    const leaguesResponse = await apiFootball.leagues();
-    const leaguesData = leaguesResponse.data; // const leaguesData = require('./leaguesworld')
+    let leaguesData = {};
+    let fixturesData = {};
+    console.log(env);
+
+    if (env === 'development') {
+      leaguesData = require('./leaguesworld');
+      fixturesData = require('./response.json');
+    } else {
+      const leaguesResponse = await apiFootball.leagues();
+      leaguesData = leaguesResponse.data;
+      const fixturesResponse = await apiFootball.fixturesTeam(teamId);
+      fixturesData = fixturesResponse.data;
+    }
 
     const leagues = leaguesData.api.leagues;
-    const fixturesResponse = await apiFootball.fixturesTeam(teamId);
-    const fixturesData = fixturesResponse.data; // const fixturesData = require('./response.json')
-
     const teamFixtures = fixturesData.api.fixtures;
     teamFixtures.map(fixture => {
       delete fixture.referee;
@@ -77,8 +86,14 @@ exports.sourceNodes = async ({
       }
     });
     await Promise.all(leaguesWithStanding.map(async league => {
-      const standingResponse = await apiFootball.leagueTable(league.league_id);
-      const standingData = standingResponse.data; // const standingData = require('./standing.json')
+      let standingData = {};
+
+      if (env === 'development') {
+        standingData = require('./standing.json');
+      } else {
+        const standingResponse = await apiFootball.leagueTable(league.league_id);
+        standingData = standingResponse.data;
+      }
 
       const standings = standingData.api.standings;
       standings.map(standing => {
