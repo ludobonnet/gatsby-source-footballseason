@@ -2,8 +2,14 @@
 
 const apifootball = require('./apifootball');
 
+const colorized = require(`./output-color`);
+
+const packageJson = require('./package.json');
+
 exports.sourceNodes = async ({
   actions,
+  cache,
+  getNodes,
   createNodeId,
   createContentDigest
 }, {
@@ -11,9 +17,26 @@ exports.sourceNodes = async ({
   teamId
 }) => {
   const {
-    createNode
+    createNode,
+    touchNode
   } = actions;
   const env = process.env.NODE_ENV || 'development';
+  let deadlines = 3600000;
+
+  if (env === 'development') {
+    deadlines = 86400000;
+  }
+
+  const cacheKey = packageJson.name;
+  let obj = await cache.get(cacheKey);
+
+  if (obj && Date.now() < obj.created + deadlines) {
+    getNodes().filter(n => n.internal.owner === packageJson.name).forEach(n => touchNode({
+      nodeId: n.id
+    }));
+    console.log(colorized.out(`Using Football Season cache ⚠️`, colorized.color.Font.FgYellow));
+    return;
+  }
 
   const processNode = ({
     type,
@@ -37,23 +60,17 @@ exports.sourceNodes = async ({
     return nodeData;
   };
 
+  console.time(colorized.out(`Fetch API Football data`, colorized.color.Font.FgGreen));
   const apiFootball = new apifootball(apiKey);
 
   try {
     const aNodeCreated = {};
     let leaguesData = {};
     let fixturesData = {};
-
-    if (env === 'development') {
-      leaguesData = require('./leaguesworld');
-      fixturesData = require('./response.json');
-    } else {
-      const leaguesResponse = await apiFootball.leagues();
-      leaguesData = leaguesResponse.data;
-      const fixturesResponse = await apiFootball.fixturesTeam(teamId);
-      fixturesData = fixturesResponse.data;
-    }
-
+    const leaguesResponse = await apiFootball.leagues();
+    leaguesData = leaguesResponse.data;
+    const fixturesResponse = await apiFootball.fixturesTeam(teamId);
+    fixturesData = fixturesResponse.data;
     const leagues = leaguesData.api.leagues;
     const teamFixtures = fixturesData.api.fixtures;
     teamFixtures.map(fixture => {
@@ -86,14 +103,8 @@ exports.sourceNodes = async ({
     });
     const results = await Promise.all(leaguesWithStanding.map(async league => {
       let standingData = {};
-
-      if (env === 'development') {
-        standingData = require('./standing.json');
-      } else {
-        const standingResponse = await apiFootball.leagueTable(league.league_id);
-        standingData = standingResponse.data;
-      }
-
+      const standingResponse = await apiFootball.leagueTable(league.league_id);
+      standingData = standingResponse.data;
       const standings = standingData.api.standings;
       standings.map(standing => {
         const nodeStanding = processNode({
@@ -107,6 +118,11 @@ exports.sourceNodes = async ({
         createNode(nodeStanding);
       });
     }));
+    obj = {
+      created: Date.now()
+    };
+    await cache.set(cacheKey, obj);
+    console.timeEnd(colorized.out(`Fetch API Football data`, colorized.color.Font.FgGreen));
   } catch (err) {
     console.error(err);
     process.exit(1);
