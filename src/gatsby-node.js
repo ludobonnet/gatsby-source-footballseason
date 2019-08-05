@@ -32,9 +32,6 @@ exports.sourceNodes = async (
     let leaguesData = {}
     let fixturesData = {}
 
-    console.log(env)
-    
-
     if (env === 'development') {
       leaguesData = require('./leaguesworld')
       fixturesData = require('./response.json')
@@ -85,7 +82,7 @@ exports.sourceNodes = async (
       }
     })
 
-    await Promise.all(
+    const results = await Promise.all(
       leaguesWithStanding.map(async league => {
         let standingData = {}
         if (env === 'development') {

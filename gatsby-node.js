@@ -43,7 +43,6 @@ exports.sourceNodes = async ({
     const aNodeCreated = {};
     let leaguesData = {};
     let fixturesData = {};
-    console.log(env);
 
     if (env === 'development') {
       leaguesData = require('./leaguesworld');
@@ -85,7 +84,7 @@ exports.sourceNodes = async ({
         return teamLeagues.find(id => id == league.league_id);
       }
     });
-    await Promise.all(leaguesWithStanding.map(async league => {
+    const results = await Promise.all(leaguesWithStanding.map(async league => {
       let standingData = {};
 
       if (env === 'development') {
